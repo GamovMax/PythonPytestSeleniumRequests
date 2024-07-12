@@ -1,0 +1,82 @@
+{
+    "test1": {
+        "username": "rgunasee",
+        "age": 35
+    },
+    "tcford": {
+        "pincode": "48001",
+        "street":"Test Street",
+        "state":"TN",
+        "country":"India"
+    },
+
+    "test_Apply_Credit": [
+        {
+        "year": "2023",
+        "model": "Explorer",
+        "trim": "ST",
+        "firstName": "FirstName",
+        "lastName": "Lname",
+        "dob": "09/14/1994",
+        "scn": "000 - 00 - 0000",
+        "phoneNo": "(123) 456 - 7890",
+        "email": "qwerty1@test.com"
+    },
+    {
+        "year": "2023",
+        "model": "Edge",
+        "trim": "SE",
+        "firstName": "FirstName2",
+        "lastName": "Lastname2",
+        "dob": "09/14/1994",
+        "scn": "000 - 00 - 0000",
+        "phoneNo": "(123) 456 - 7890",
+        "email": "qwerty2@test.com"
+    },
+    {
+        "year": "2023",
+        "model": "Escape",
+        "trim": "Base",
+        "firstName": "firstName3",
+        "lastName": "LastName3",
+        "dob": "09/14/1994",
+        "scn": "000 - 00 - 0000",
+        "phoneNo": "(123) 456 - 7890",
+        "email": "qwerty3@test.com"
+    }],
+
+    "test_AdvantageOnline": [{
+        "random": "Y",
+        "regUsername": "",
+        "regPassword": "",
+        "regEmail": "",
+        "regFirstName": "",
+        "regLastName": "",
+        "regPhone": "",
+        "regCity": "",
+        "regCountry": "",
+        "regAddress": "",
+        "regState": "",
+        "regPostalcode": "",
+        "productType": "Speakers",
+        "productName": "Bose Soundlink Bluetooth Speaker III",
+        "orderText": "Thank you for buying with Advantage"
+    },
+    {
+        "random": "Y",
+        "regUsername": "",
+        "regPassword": "",
+        "regEmail": "",
+        "regFirstName": "",
+        "regLastName": "",
+        "regPhone": "",
+        "regCity": "",
+        "regCountry": "",
+        "regAddress": "",
+        "regState": "",
+        "regPostalcode": "",
+        "productType": "Laptops",
+        "productName": "HP Pavilion 15z Touch Laptop",
+        "orderText": "Thank you for buying with Advantage"
+    }]
+}
