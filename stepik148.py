@@ -19,12 +19,12 @@ class TestStepik148:
         self.driver = webdriver.Chrome(options=options)
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
+        self.driver.get("https://www.google.com/")
         yield
         self.driver.close()
         self.driver.quit()
 
     def test_cookies_first(self):
-        self.driver.get("https://www.google.com/")
         self.driver.add_cookie({
             'name': 'username',
             'value': 'user123'
@@ -38,7 +38,6 @@ class TestStepik148:
         print("\n", self.driver.get_cookie("username"))
 
     def test_cookies_second(self):
-        self.driver.get("https://www.google.com/")
         self.driver.add_cookie({
             'name': 'username',
             'value': 'user123'
